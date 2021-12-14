@@ -60,7 +60,20 @@
 
     </div>
 
-
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyC_JppnzexWtNKep723N2vMGA7_SHsS8f4",
+            authDomain: "my-test-project-229fb.firebaseapp.com",
+            projectId: "my-test-project-229fb",
+            storageBucket: "my-test-project-229fb.appspot.com",
+            messagingSenderId: "535528617593",
+            appId: "1:535528617593:web:da8ec3be4fc28625f806a8"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
     <script src="scripts/chat.js"></script>
     <script src="scripts/ui.js"></script>
     <script src="scripts/app.js"></script>
