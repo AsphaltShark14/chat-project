@@ -4,6 +4,7 @@ const newChatForm = document.querySelector('.new-chat');
 const newNameForm = document.querySelector('.new-name');
 const updateMessage = document.querySelector('.update-mssg');
 const rooms = document.querySelector('.chat-rooms');
+const chatWindow = document.querySelector('.chat-window');
 
 // add a new chat
 newChatForm.addEventListener('submit', e => {

@@ -28,6 +28,7 @@ class Chatroom {
             callback(change.doc.data());
           }
         });
+        chatWindow.scrollTop = chatWindow.scrollHeight - chatWindow.clientHeight;
     });
   }
   updateName(username){
